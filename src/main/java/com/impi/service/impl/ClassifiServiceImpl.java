@@ -1,7 +1,6 @@
-/*    */ package com.impi.service.impl
+/*    */ package com.impi.service.impl;
 
--INF.classes.com.impi.service.impl;
-/*    */ 
+/*    */
 /*    */ import com.github.pagehelper.PageHelper;
 /*    */ import com.impi.domain.Classifi;
 /*    */ import com.impi.mapper.ClassifiMapper;

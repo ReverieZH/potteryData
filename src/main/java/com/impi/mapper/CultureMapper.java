@@ -1,16 +1,14 @@
-package com.impi.mapper
+package com.impi.mapper;
 
--INF.classes.com.impi.mapper;
 
 import com.impi.domain.Culture;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
-import tk.mybatis.mapper.common.Mapper;
 
 @Mapper
 @Repository
-public interface CultureMapper extends Mapper<Culture> {
+public interface CultureMapper extends tk.mybatis.mapper.common.Mapper<Culture> {
   @Select({"select count(*) from Culture"})
   int getCount();
 }

@@ -1,7 +1,6 @@
-/*    */ package com.impi.interceptors
+/*    */ package com.impi.interceptors;
 
--INF.classes.com.impi.interceptors;
-/*    */ 
+/*    */
 /*    */ import com.auth0.jwt.exceptions.AlgorithmMismatchException;
 /*    */ import com.auth0.jwt.exceptions.SignatureVerificationException;
 /*    */ import com.auth0.jwt.exceptions.TokenExpiredException;

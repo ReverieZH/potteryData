@@ -1,16 +1,14 @@
-package com.impi.mapper
+package com.impi.mapper;
 
--INF.classes.com.impi.mapper;
 
 import com.impi.domain.Classifi;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
-import tk.mybatis.mapper.common.Mapper;
 
 @Mapper
 @Repository
-public interface ClassifiMapper extends Mapper<Classifi> {
+public interface ClassifiMapper extends tk.mybatis.mapper.common.Mapper<Classifi> {
   @Select({"select count(*) from Classifi"})
   int getCount();
 }

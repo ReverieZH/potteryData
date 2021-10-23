@@ -1,7 +1,6 @@
-/*    */ package com.impi.filter
+/*    */ package com.impi.filter;
 
--INF.classes.com.impi.filter;
-/*    */ 
+/*    */
 /*    */ import java.io.IOException;
 /*    */ import javax.servlet.Filter;
 /*    */ import javax.servlet.FilterChain;

@@ -1,6 +1,5 @@
-package com.impi.service
+package com.impi.service;
 
--INF.classes.com.impi.service;
 
 import com.impi.domain.Pottery;
 import java.util.List;

@@ -1,16 +1,15 @@
-package com.impi.mapper
+package com.impi.mapper;
 
--INF.classes.com.impi.mapper;
 
+import com.impi.domain.Culture;
 import com.impi.domain.Pottery;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
-import tk.mybatis.mapper.common.Mapper;
 
 @Mapper
 @Repository
-public interface PotteryMapper extends Mapper<Pottery> {
+public interface PotteryMapper extends tk.mybatis.mapper.common.Mapper<Pottery> {
   @Select({"select count(*) from pottery"})
   int getCount();
 }

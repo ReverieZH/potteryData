@@ -1,7 +1,6 @@
-/*    */ package com.impi.service.impl
+/*    */ package com.impi.service.impl;
 
--INF.classes.com.impi.service.impl;
-/*    */ 
+/*    */
 /*    */ import com.github.pagehelper.PageHelper;
 /*    */ import com.impi.domain.Culture;
 /*    */ import com.impi.mapper.CultureMapper;

@@ -1,6 +1,5 @@
-package com.impi.service
+package com.impi.service;
 
--INF.classes.com.impi.service;
 
 import com.impi.domain.Culture;
 import java.util.List;

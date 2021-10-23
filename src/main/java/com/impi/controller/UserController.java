@@ -1,7 +1,6 @@
-/*    */ package com.impi.controller
+/*    */ package com.impi.controller;
 
--INF.classes.com.impi.controller;
-/*    */ 
+/*    */
 /*    */ import com.github.pagehelper.PageInfo;
 /*    */ import com.impi.domain.User;
 /*    */ import com.impi.service.UserService;

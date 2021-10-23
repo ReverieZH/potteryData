@@ -1,7 +1,6 @@
-/*     */ package com.impi.utils
+/*     */ package com.impi.utils;
 
--INF.classes.com.impi.utils;
-/*     */ 
+/*     */
 /*     */ import com.impi.domain.GPS;
 /*     */ 
 /*     */ 

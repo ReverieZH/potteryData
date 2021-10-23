@@ -1,16 +1,14 @@
-package com.impi.mapper
+package com.impi.mapper;
 
--INF.classes.com.impi.mapper;
 
 import com.impi.domain.Role;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
-import tk.mybatis.mapper.common.Mapper;
 
 @Mapper
 @Repository
-public interface RoleMapper extends Mapper<Role> {
+public interface RoleMapper extends tk.mybatis.mapper.common.Mapper<Role> {
   @Select({"select count(*) from Role"})
   int getCount();
 }

@@ -1,7 +1,6 @@
-/*    */ package com.impi.utils
+/*    */ package com.impi.utils;
 
--INF.classes.com.impi.utils;
-/*    */ 
+/*    */
 /*    */ import com.auth0.jwt.JWT;
 /*    */ import com.auth0.jwt.JWTCreator;
 /*    */ import com.auth0.jwt.JWTVerifier;

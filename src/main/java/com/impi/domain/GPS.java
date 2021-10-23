@@ -1,4 +1,4 @@
-/*    */ package com.impi.domain-INF.classes.com.impi.domain;
+/*    */ package com.impi.domain;
 /*    */ 
 /*    */ 
 /*    */ 

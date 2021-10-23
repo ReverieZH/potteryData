@@ -1,7 +1,6 @@
-/*    */ package com.impi.domain
+/*    */ package com.impi.domain;
 
--INF.classes.com.impi.domain;
-/*    */ 
+/*    */
 /*    */ import com.impi.domain.Role;
 /*    */ import javax.persistence.Id;
 /*    */ import javax.persistence.Table;

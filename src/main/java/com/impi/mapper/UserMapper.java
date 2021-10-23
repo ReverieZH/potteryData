@@ -1,6 +1,5 @@
-package com.impi.mapper
+package com.impi.mapper;
 
--INF.classes.com.impi.mapper;
 
 import com.impi.domain.User;
 import java.util.List;
@@ -10,11 +9,10 @@ import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
-import tk.mybatis.mapper.common.Mapper;
 
 @Mapper
 @Repository
-public interface UserMapper extends Mapper<User> {
+public interface UserMapper extends tk.mybatis.mapper.common.Mapper<User> {
   @Select({"select count(*) from User"})
   int getCount();
   

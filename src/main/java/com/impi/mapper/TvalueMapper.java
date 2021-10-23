@@ -1,16 +1,14 @@
-package com.impi.mapper
+package com.impi.mapper;
 
--INF.classes.com.impi.mapper;
 
 import com.impi.domain.Tvalue;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
-import tk.mybatis.mapper.common.Mapper;
 
 @Mapper
 @Repository
-public interface TvalueMapper extends Mapper<Tvalue> {
+public interface TvalueMapper extends tk.mybatis.mapper.common.Mapper<Tvalue> {
   @Select({"select count(*) from Tvalue"})
   int getCount();
 }

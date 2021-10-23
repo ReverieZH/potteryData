@@ -1,7 +1,6 @@
-/*     */ package com.impi.controller
+/*     */ package com.impi.controller;
 
--INF.classes.com.impi.controller;
-/*     */ 
+/*     */
 /*     */ import com.impi.domain.Classifi;
 /*     */ import com.impi.domain.Culture;
 /*     */ import com.impi.domain.GPS;
